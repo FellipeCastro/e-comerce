@@ -386,3 +386,49 @@ section {
     pointer-events: all;
     transform: rotate3d(0, 0, 1, 360deg);
 }
+
+/* NEWSLETTER */
+.newsletter-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2rem;
+    background: var(--text-color);
+    padding: 60px 70px;
+    border-radius: 28px;
+}
+
+.newsletter-text h2 {
+    color: var(--bg-color);
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.newsletter-text p {
+    font-size: var(--p-font);
+    font-weight: 500;
+    color: var(--bg-color);
+}
+
+.newsletter-content form {
+    display: grid;
+    grid-template-columns: 1fr 0.4fr;
+    gap: 1em;
+}
+
+.newsletter-content form input:first-child {
+    border: none;
+    outline: none;
+    padding: 15px;
+    background: var(--bg-color);
+    font-size: var(--p-font);
+    color: var(--text-color);
+    border-radius: 5px;
+}
+
+.newsletter-content form input:last-child {
+    background: var(--bg-color);
+    border-radius: 5px;
+    font-size: var(--p-font);
+    cursor: pointer;
+}
