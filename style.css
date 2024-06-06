@@ -475,7 +475,7 @@ section {
     font-size: 17px;
     border-radius: 10px;
     margin-right: 14px;
-    transform: all 1s;
+    transition: transform 1s;
 }
 
 .social a:hover {
