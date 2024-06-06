@@ -378,7 +378,7 @@ section {
     border-radius: 10px;
     opacity: 0;
     pointer-events: none;
-    transition: all .6s;
+    transition: all 1s;
 }
 
 .col:hover .col-icon i {
@@ -475,7 +475,7 @@ section {
     font-size: 17px;
     border-radius: 10px;
     margin-right: 14px;
-    transform: transform .6s;
+    transform: all 1s;
 }
 
 .social a:hover {
