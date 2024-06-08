@@ -411,12 +411,13 @@ section {
 }
 
 .newsletter-content form {
-    display: grid;
-    grid-template-columns: 1fr 0.4fr;
+    width: 100%;
+    display: flex;
     gap: 1em;
 }
 
 .newsletter-content form input:first-child {
+    width: 70%;
     border: none;
     outline: none;
     padding: 15px;
@@ -427,6 +428,7 @@ section {
 }
 
 .newsletter-content form input:last-child {
+    width: 30%;
     background: var(--bg-color);
     border-radius: 5px;
     font-size: var(--p-font);
@@ -621,6 +623,8 @@ section {
 }
 
 @media (max-width: 530px) {
+    /*Aqui a newsletter-content esta quebrando, o input sai da div*/
+
     :root {
         --h1-font: 3.5rem;
         --h2-font: 2.2rem;
@@ -635,7 +639,11 @@ section {
     }
 
     .newsletter-content {
-        padding: 20px;
+        padding: 40px;
+    }
+
+    .newsletter-content {
+        padding: 40px;
     }
 
     .footer {
