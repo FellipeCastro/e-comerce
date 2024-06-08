@@ -417,7 +417,7 @@ section {
 }
 
 .newsletter-content form input:first-child {
-    width: 70%;
+    flex-grow: 3;
     border: none;
     outline: none;
     padding: 15px;
@@ -428,7 +428,7 @@ section {
 }
 
 .newsletter-content form input:last-child {
-    width: 30%;
+    flex-grow: 1;
     background: var(--bg-color);
     border-radius: 5px;
     font-size: var(--p-font);
@@ -639,11 +639,19 @@ section {
     }
 
     .newsletter-content {
-        padding: 40px;
+        padding: 30px 35px;
     }
 
-    .newsletter-content {
-        padding: 40px;
+    .newsletter-content form {
+        flex-wrap: wrap;
+    }
+    
+    .newsletter-content form input:first-child {
+        flex-grow: 1;
+    }
+    
+    .newsletter-content form input:last-child {
+        flex-grow: 1;
     }
 
     .footer {
