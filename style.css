@@ -623,8 +623,6 @@ section {
 }
 
 @media (max-width: 530px) {
-    /*Aqui a newsletter-content esta quebrando, o input sai da div*/
-
     :root {
         --h1-font: 3.5rem;
         --h2-font: 2.2rem;
